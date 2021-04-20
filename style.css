@@ -1,6 +1,29 @@
 html, body {
     margin: 10px;
     padding: 10px;
+    font-family: "Manrope", sans-serif;  
+}
+
+body {
+    width: 400px;
+    height: 400px;
+    border: solid 3px rgb(150, 146, 146);
+    margin: 10px auto;
+    text-align: center;
+}
+
+#start {
+    font-family: "Tajawal", sans-serif;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 50px;
+    border-style: dashed;
+    border-color: black; 
+    background-color:lightgray;
+    color: white;
+    font-weight: bold;
+
+
 }
 
 .grid {
@@ -9,6 +32,8 @@ html, body {
     width: 200px;
     height: 200px;
     border: 2px solid black;
+    margin: 0 auto;
+    background-color: lightgray;
 }
 
 .square {
@@ -20,4 +45,9 @@ html, body {
 
 .snake {
     background: green;
+}
+
+.apple {
+    background:black;
+
 }
