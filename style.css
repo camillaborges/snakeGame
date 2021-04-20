@@ -1,29 +1,40 @@
 html, body {
-    margin: 10px;
+    margin: 0;
     padding: 10px;
-    font-family: "Manrope", sans-serif;  
+    font-family: "Manrope", sans-serif; 
 }
 
 body {
+    background-color: rgba(23, 156, 23, 0.555);
+}
+
+
+.container {
     width: 400px;
-    height: 400px;
+    height: 450px;
     border: solid 3px rgb(150, 146, 146);
-    margin: 10px auto;
+    background:white;
+    margin: 30px auto;
     text-align: center;
+    
 }
 
 #start {
     font-family: "Tajawal", sans-serif;
     font-size: 15px;
     padding: 5px;
-    border-radius: 50px;
     border-style: dashed;
-    border-color: black; 
+    border-color: white; 
     background-color:lightgray;
     color: white;
     font-weight: bold;
+    cursor: pointer;
+    
+}
 
-
+#start:hover {
+    background: rgb(47, 75, 4);
+    
 }
 
 .grid {
@@ -39,15 +50,15 @@ body {
 .square {
     width: 20px;
     height: 20px;
-   
-    
+ 
 }
 
 .snake {
-    background: green;
+    background: rgb(196, 133, 18);
+
 }
 
 .apple {
-    background:black;
+    background:rgb(231, 6, 6);
 
 }
