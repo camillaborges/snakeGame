@@ -1,6 +1,6 @@
 html, body {
     margin: 0;
-    padding: 10px;
+    padding: 0.1em;
     font-family: "Manrope", sans-serif; 
 }
 
@@ -10,19 +10,19 @@ body {
 
 
 .container {
-    width: 400px;
-    height: 450px;
-    border: solid 3px rgb(150, 146, 146);
+    width: 50%;
+    height: 50%;
+    border: solid 0.3em rgb(150, 146, 146);
     background:white;
-    margin: 30px auto;
+    margin: 3em auto;
     text-align: center;
     
 }
 
 #start {
     font-family: "Tajawal", sans-serif;
-    font-size: 15px;
-    padding: 5px;
+    font-size: 1rem;
+    padding: 0.5em;
     border-style: dashed;
     border-color: white; 
     background-color:lightgray;
@@ -42,8 +42,8 @@ body {
     flex-wrap: wrap;
     width: 200px;
     height: 200px;
-    border: 2px solid black;
-    margin: 0 auto;
+    border: 0.2em solid black;
+    margin: 10px auto;
     background-color: lightgray;
 }
 
@@ -54,11 +54,15 @@ body {
 }
 
 .snake {
-    background: rgb(196, 133, 18);
-
+    background:  rgba(62, 224, 62, 0.555);
+    border: dotted 0.1em rgba(23, 156, 23, 0.555);
+    box-sizing: border-box;
+    
 }
 
 .apple {
-    background:rgb(231, 6, 6);
+    background: red;
+    border: solid 0.1em rgba(25, 212, 25, 0.555);
+    box-sizing: border-box;
 
 }
