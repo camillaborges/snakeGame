@@ -26,14 +26,15 @@ body {
     border-style: dashed;
     border-color: white; 
     background-color:lightgray;
-    color: white;
+    color: rgb(99, 17, 17);
     font-weight: bold;
     cursor: pointer;
+    text-transform: uppercase;
     
 }
 
 #start:hover {
-    background: rgb(47, 75, 4);
+    background: rgb(183, 190, 172);
     
 }
 
@@ -62,7 +63,8 @@ body {
 
 .apple {
     background: red;
-    border: solid 0.1em rgba(25, 212, 25, 0.555);
+    border: solid 0.1em rgba(243, 247, 243, 0.966);
+    border-radius: 50%;
     box-sizing: border-box;
 
 }
